@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  GoJekShop
+
+  Created by Sudar on 10/01/20.
+  Copyright © 2020 appoets. All rights reserved.
+*/
+  //Order
+"Orders" = "Orders";
+"Order Placed" = "Order Placed";
+"We have recieved your order" = "We have recieved your order";
+"Order Confirmed" = "Order Confirmed";
+"Your order has been scheduled" = "Your order has been scheduled";
+"Order Processed" = "Order Processed";
+"We are preparing your order" = "We are preparing your order";
+"Order Pickedup" = "Order Pickedup";
+"Your order is ready to pickup" = "Your order is ready to pickup";
+"Order Delivered" = "Order Delivered";
+"Your order is delivered sucessfully" = "Your order is delivered sucessfully";
+"Order Cancelled" = "Order Cancelled";
+"You have no Ongoing Orders" = "You have no Ongoing Orders";
+"You have no Past Orders" = "You have no Past Orders";
+"You have no Cancelled Orders" = "You have no Cancelled Orders";
+"Past Orders" = "Past Orders";
+"Cancelled Orders" = "Cancelled Orders";
+"Ongoing Orders" = "Ongoing Orders";
+"Item Total" = "Item Total";
+
+//MyAccount
+"My Account" = "My Account";
+"Language" = "Language";
+"Reset Password" = "Reset Password";
+"OTP Verification" = "OTP Verification";
+"Old Password" = "Old Password";
+"New Password" = "New Password";
+"Confirm Password" = "Confirm Password";
+"OTP" = "OTP";
+"Invalid OTP" = "Invalid OTP";
+"Enter OTP" = "Enter OTP";
+"Logout" = "Logout";
+"Are you sure want to logout?" = "Are you sure want to logout?";
+"Change Password" = "Change Password";
+
+// Home
+"Home" = "Home";
+"WAITING FOR THE UPCOMING TASK" = "WAITING FOR THE UPCOMING TASK";
+"Order Time" = "Order Time";
+"Waiting for new orders" = "Waiting for new orders";
+"Are you sure want to cancel the order?" = "Are you sure want to cancel the order?";
+"Order Delivery Time" = "Order Delivery Time";
+"Enter the order preparation time ?" = "Enter the order preparation time ?";
+"Mins" =  "Mins";
+"Incoming Orders" = "Incoming Orders";
+"Accepted Orders" = "Accepted Orders";
+"Delivery Charge" = "Delivery Charge";
+"Coupon Amount" = "Coupon Amount";
+"Total Charge" = "Total Charge";
+"Discount" = "Discount";
+"Shop Package Charge" = "Shop Package Charge";
+"Tax Amount" = "Tax Amount";
+"PromoCode" = "PromoCode";
+"Total" = "Total";
+"Enter the Time taken for cooking" = "Enter the Time taken for cooking";
+"Upcoming Requests" = "Upcoming Requests";
+"Order List" = "Order List";
+
+
+"Login Via" = "Login Via";
+"Forgot Password"= "Forgot Password";
+"Cannot make call at this moment" = "Cannot make call at this moment";
+"Could not open Email at the moment." = "Could not open Email at the moment.";
+
+
+   //Validation
+"Enter Email Id" = "Enter Email Id";
+"Enter Phone Number" = "Enter Phone Number";
+"Enter Password" = "Enter Password";
+"Enter valid email id" = "Enter valid email id";
+"Enter valid phone number" = "Enter valid phone number";
+"Password Must have Atleast 6 Characters." = "Password Must have Atleast 6 Characters.";
+"Enter new password" = "Enter new password";
+"Enter old password" = "Enter old password";
+"Enter confirm password" = "Enter confirm password";
+"Old password and new password not be same" = "Old password and new password not be same";
+"New password and confirm password should be same" = "New password and confirm password should be same";

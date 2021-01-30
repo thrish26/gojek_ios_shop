@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="88" id="KGk-i7-Jjw" customClass="DishTableViewCell" customModule="GoJekShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NdC-0h-KTT">
+                        <rect key="frame" x="16" y="6" width="288" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eT3-vb-1lc">
+                                <rect key="frame" x="16" y="10" width="264" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="juH-lL-1OZ">
+                                <rect key="frame" x="259.5" y="23.5" width="12.5" height="16.5"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="juH-lL-1OZ" firstAttribute="centerY" secondItem="NdC-0h-KTT" secondAttribute="centerY" id="4s3-lm-5wT"/>
+                            <constraint firstAttribute="bottom" secondItem="eT3-vb-1lc" secondAttribute="bottom" constant="10" id="DN4-cn-5hT"/>
+                            <constraint firstItem="eT3-vb-1lc" firstAttribute="top" secondItem="NdC-0h-KTT" secondAttribute="top" constant="10" id="MQz-WG-hif"/>
+                            <constraint firstAttribute="trailing" secondItem="eT3-vb-1lc" secondAttribute="trailing" constant="8" id="SbI-Ud-ypV"/>
+                            <constraint firstItem="eT3-vb-1lc" firstAttribute="leading" secondItem="NdC-0h-KTT" secondAttribute="leading" constant="16" id="jJk-LM-HcD"/>
+                            <constraint firstAttribute="trailing" secondItem="juH-lL-1OZ" secondAttribute="trailing" constant="16" id="sZ4-qu-Y7a"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="NdC-0h-KTT" secondAttribute="trailing" constant="16" id="BqE-0T-CO7"/>
+                    <constraint firstAttribute="bottom" secondItem="NdC-0h-KTT" secondAttribute="bottom" constant="6" id="b21-zD-w1i"/>
+                    <constraint firstItem="NdC-0h-KTT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="uSu-5K-ZfG"/>
+                    <constraint firstItem="NdC-0h-KTT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="vDT-DE-XDS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="overView" destination="NdC-0h-KTT" id="DMq-rq-ORT"/>
+                <outlet property="titleLabel" destination="eT3-vb-1lc" id="APG-KH-Ufl"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="161.04910714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="48" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="AOj-Y7-zgZ">
+            <objects>
+                <viewController storyboardIdentifier="NotificationViewController" id="70h-1c-hNm" customClass="NotificationViewController" customModule="Opus_X_Shop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tno-Xe-ZLy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QO8-4k-qbg">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="T5g-oQ-6hg" firstAttribute="bottom" secondItem="QO8-4k-qbg" secondAttribute="bottom" id="13O-D1-M96"/>
+                            <constraint firstItem="T5g-oQ-6hg" firstAttribute="trailing" secondItem="QO8-4k-qbg" secondAttribute="trailing" id="M4x-gg-xd7"/>
+                            <constraint firstItem="QO8-4k-qbg" firstAttribute="top" secondItem="T5g-oQ-6hg" secondAttribute="top" id="n37-ZN-Frb"/>
+                            <constraint firstItem="QO8-4k-qbg" firstAttribute="leading" secondItem="T5g-oQ-6hg" secondAttribute="leading" id="oUP-ZT-oPy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T5g-oQ-6hg"/>
+                    </view>
+                    <connections>
+                        <outlet property="notificationTbleView" destination="QO8-4k-qbg" id="pPW-z7-LOG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhb-Gf-knL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101.44927536231884" y="64.955357142857139"/>
+        </scene>
+    </scenes>
+</document>
